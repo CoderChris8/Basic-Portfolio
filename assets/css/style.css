@@ -127,6 +127,39 @@ a.logogithub{
     border-radius: 3px;
 }
 
+.portfolio-images-wrap{
+    float: left;
+    width: 279px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.portfolio-images-wrap:nth-of-type(even){
+    margin-right: 0px;
+}
+
+.portfolio-images-wrap a{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 8px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.portfolio-images-wrap a:hover{
+    background-color: #6f7e7d;
+}
+
+.portfolio-images-wrap img{
+    width: 100%;
+}
 
 .footer{
     text-align: center;

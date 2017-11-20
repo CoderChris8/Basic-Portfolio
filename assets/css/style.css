@@ -48,6 +48,15 @@ ul.nav li:first-of-type{
     border-left: 0px;
 }
 
+ul.nav li a{
+    color: #777777;
+    text-decoration: none;
+}
+
+ul.nav li a:hover{
+    color: #4aaaa5;
+}
+
 .content{
     padding: 10px;
 }
